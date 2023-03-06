@@ -52,7 +52,7 @@ public class Address {
 
     public static void main(String args[]) {
         Address addr = new Address(); // calling a constructor
-        Address addr2 = new Address("Sri Iskandar", "Tronoh", "31750", "Perak");
+        Address addr2 = new Address("Taman Tunku", "Miri", "98100", "Sarawak");
 
 
     }
