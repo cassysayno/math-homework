@@ -6,13 +6,13 @@ public class Main {
         School sk1 = new School();
 
         // Direct access to attributes is not a good practices
-        sk1.setName("SK Satu");
+        sk1.setName("SK Lutong");
 
         Address addr = new Address();
-        addr.setStreet("Jalan 2");
-        addr.setDistrict("JB");
-        addr.setPostcode("30021");
-        addr.setState("Johor");
+        addr.setStreet("Jalan 98");
+        addr.setDistrict("MYY");
+        addr.setPostcode("98000");
+        addr.setState("MIRI");
         sk1.setAddress(addr);
 
 
@@ -31,8 +31,5 @@ public class Main {
         float mark = marks.getMark(0);
         System.out.println("Marks for student 0 is " + mark);
 
-        // we want a class that enables reading a file like this..
-        FileLoader fl = new FileLoader("filename.txt");
-        fl.readAnddisplay();
     }
 }
